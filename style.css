@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+  height: 100px;
+}
+h1 {
+  font-size: 40px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  font-size: 20px;
+  letter-spacing: 3px;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+}
+.plus-sign {
+  height: 25px;
+  width: 100%;
+  transition: all 0.25s ease-in-out;
+}
+.bi:hover {
+  transform: rotate(90deg);
+}
+
+.display {
+  display: none;
+}
+
+.display1 {
+  display: block;
+}
+
+/* .icon {
+  border: 2px solid blue;
+} */
